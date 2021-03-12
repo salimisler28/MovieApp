@@ -1,4 +1,4 @@
-package com.teknasyon.movieapp.ui
+package com.teknasyon.movieapp.ui.activies
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
