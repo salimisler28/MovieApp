@@ -1,7 +1,8 @@
-package com.teknasyon.movieapp
+package com.teknasyon.movieapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.teknasyon.movieapp.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
