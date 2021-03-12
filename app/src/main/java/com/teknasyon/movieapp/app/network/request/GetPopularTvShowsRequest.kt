@@ -4,7 +4,7 @@ import com.teknasyon.movieapp.BuildConfig
 import java.util.*
 
 data class GetPopularTvShowsRequest(
-    var apiKey: String? = BuildConfig.API_KEY,
+    var apiKey: String = BuildConfig.API_KEY,
     var language: String? = Locale.getDefault().toLanguageTag(),
     var page: Int? = null
 )
