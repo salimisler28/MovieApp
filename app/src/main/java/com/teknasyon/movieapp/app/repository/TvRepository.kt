@@ -1,6 +1,7 @@
 package com.teknasyon.movieapp.app.repository
 
 import com.teknasyon.movieapp.app.data.remotedatasource.TvRemoteDataSource
+import com.teknasyon.movieapp.app.network.request.GetPopularTvShowDetailRequest
 import com.teknasyon.movieapp.app.network.request.GetPopularTvShowsRequest
 import com.teknasyon.movieapp.app.util.fromNetwork
 
@@ -11,5 +12,11 @@ class TvRepository constructor(
         tvShowsRequest: GetPopularTvShowsRequest
     ) = fromNetwork {
         tvRemoteDataSource.getPopularTvShows(tvShowsRequest)
+    }
+
+    fun getTvShowDetail(
+        request: GetPopularTvShowDetailRequest
+    ) = fromNetwork {
+        tvRemoteDataSource.getTvShowDetail(request)
     }
 }
