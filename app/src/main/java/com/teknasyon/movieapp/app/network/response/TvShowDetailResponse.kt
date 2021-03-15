@@ -15,7 +15,7 @@ data class TvShowDetailResponse(
     var last_air_date: String? = null,
     var last_episode_to_air: Any? = null,
     var name: String? = null,
-    var next_episode_to_air: String? = null,
+    var next_episode_to_air: Any? = null,
     var networks: List<NetworkDto>? = null,
     var number_of_episodes: Int? = null,
     var number_of_seasons: Int? = null,
