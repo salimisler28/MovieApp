@@ -13,7 +13,7 @@ data class TvShowDetailResponse(
     var in_production: Boolean? = null,
     var languages: List<String>? = null,
     var last_air_date: String? = null,
-    var last_episode_to_air: String? = null,
+    var last_episode_to_air: Any? = null,
     var name: String? = null,
     var next_episode_to_air: String? = null,
     var networks: List<NetworkDto>? = null,
@@ -32,6 +32,6 @@ data class TvShowDetailResponse(
     var status: String? = null,
     var tagline: String? = null,
     var type: String? = null,
-    var vote_average: Int? = null,
+    var vote_average: Double? = null,
     var vote_count: Int? = null,
 )
