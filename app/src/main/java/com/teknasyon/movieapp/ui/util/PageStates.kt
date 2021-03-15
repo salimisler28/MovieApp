@@ -5,5 +5,8 @@ enum class PageStates {
     ERROR,
     LOADING,
     NULL_DATA,
-    SUCCESS
+    SUCCESS,
+    NEXT_PAGE,
+    NEXT_PAGE_LOADING,
+    NEXT_PAGE_ERROR;
 }
