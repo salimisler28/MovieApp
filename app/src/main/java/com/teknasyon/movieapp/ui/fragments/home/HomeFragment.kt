@@ -45,6 +45,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             it?.id?.let { _id ->
                 val bundle = Bundle().apply {
                     putInt("TV-SHOW-ID", _id)
+                    putString("TV-SHOW-HEADER", it.name)
                 }
                 findNavController().navigate(
                     R.id.action_homeFragment_to_tvShowDetailFragment,
